@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="2021メディアアート展示会「37.5度展」" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mediaart2021.netlify.app/#" />
+  <meta property="og:sitename" content="2021メディアアート展示会「37.5度展」" />
+  <meta property="og:description" content="2021メディアアート展示会「37.5度展」"/>
+  <meta property="og:image" content="https://mediaart2021.netlify.app/images/logo.png" />
+  <meta property="twitter:card" content="summary">
+
   <title>mediaart_draft</title>
 </head>
 
@@ -48,19 +57,43 @@
       </div>
   </nav>
 </div>
-  <!--====  End of navigation section  ====-->
+
+ <!-- Home Modal -->
+ <div class="modal fade" id="HomeModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+  </div>
+</div>  
+
+<!-- Artist Modal -->
+<div class="modal fade" id="ArtistModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+  </div>
+</div>  
+
+<!-- Contact Modal -->
+<div class="modal fade" id="ContactModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+
+  </div>
+</div>  
+
+
+  <!-- contents -->
   <div class="container">
     <div class="row">
       
-      <div class="col-sm-12 col-md-8 " id="main_container" >
+      <div class="col-sm-12 col-md-8" id="main_container" >
         <!-- <canvas id="container" width="" height=""></canvas> -->
-        <div class="parallax-window" data-parallax="scroll" style="width:100%;height:400px; margin-top:100px; opacity:0.7;" data-image-src="images/poster.jpg">
-          <img src="images/logo.png" alt="">
-        </div>
+          <div class="parallax-window" data-parallax="scroll" data-image-src="images/poster.jpg">
+            <img src="images/logo.png" alt="">
+          </div>
       </div>
 
       <div class="visible-md visible-lg col-md-4 date">
-        <p1>37.5 <span>℃展</span></p1>
+        <h>37.5 <span>℃展</span></br></br></h>
         <p>10.18<span>MON</span></p>
         <p>▼</p>
         <p>10.24<span>SUN</span></p>
@@ -71,16 +104,27 @@
   
   <div class="container">
     <div class="row enter_contents">
-        <p>10月18日 11:30 – 10月24日 18:30</p>
-        <p>〒101-0062 東京都千代田区神田駿河台４丁目４−６</br>
-        デジタルハリウッド大学３階　駿河台ホール</p>
 
-        <!-- <button type="button" class="button_enter btn btn-outline-dark btn-lg ">来場申込</button> -->
+        <h>10<span>月</span>18<span>日</span> 11<span>:</span>30 – 10<span>月</span>24<span>日</span> 18<span>:</span>30</h>
+          </br></br>
+
+        <p>〒101-0062 東京都千代田区神田駿河台４丁目４−６</br>
+        デジタルハリウッド大学３階　駿河台ホール
+          </br></br>
+        </p>
+
         <a href="#">
           <!-- <img src="images/mobile.png" alt=""> -->
           来場申込</a>
     </div>
   </div>
+
+
+  <!-- about -->
+
+    <h1 class="t_title col-md-12 col-sm-12 text-center" >
+      ABOUT
+    </h1>
 
     <div class="text" class="col-md-12">
       <h1>落合陽一氏が講師を務める</br>「メディアアート講義」で制作した作品展</h1>
@@ -106,114 +150,131 @@
       </p>
     </div> 
 
+<!-- artist -->
 
- <!-- Home Modal -->
- <div class="modal fade" id="HomeModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
+    <h1 class="t_title col-md-12 col-sm-12 text-center" >
+      ARTIST
+    </h1>
+
+    <div class="hes-gallery">
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal6">
+        <img class="img-responsive" src="images/6金城有万那_作品.jpg" style="  height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal7">
+        <img src="images/7澤田真吾_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal8">
+        <img src="images/8高井登紀子_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal14">
+        <img src="images/14宮本真桜_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal15">
+        <img src="images/15もも浪漫_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal16">
+        <img src="images/16山下 知章_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal17">
+        <img src="images/17YANG DAEUN_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
+        <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal18">
+        <img src="images/18吉見正樹_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+        </a>
     </div>
-</div>  
 
  <!-- Artist Modal -->
- <div class="modal fade" id="ArtistModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-    </div>
-</div>  
 
- <!-- Contact Modal -->
- <div class="modal fade" id="ContactModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
+    <div class="modal fade" id="ArtModal6" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/6金城有万那_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal7" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/7澤田真吾_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal8" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/8高井登紀子_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal14" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/14宮本真桜_アー.jpeg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal15" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/15もも浪漫_アー.jpg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal16" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/16山下 知章_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal17" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/17YANG DAEUN_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
+    <div class="modal fade" id="ArtModal18" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <img src="images/18吉見正樹_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+      </div>
+    </div>  
 
-    </div>
-</div>  
 
-<!-- About body -->
-<div>
+<!-- Access -->
 
-</div>
+    <h1 class="t_title col-md-12 col-sm-12 text-center" >
+      ACCESS
+    </h1>
     
+     <div class="container">
+       <div class="row">
+          <div class="map_title col-md-12 col-sm-12 text-left" >
+            <h>駿河台キャンパス</h>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#AccessModal">
+            こちら</a>
 
-<div class="hes-gallery">
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal6">
-    <img class="img-responsive" src="images/6金城有万那_作品.jpg" style="  height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal7">
-    <img src="images/7澤田真吾_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal8">
-    <img src="images/8高井登紀子_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal14">
-    <img src="images/14宮本真桜_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal15">
-    <img src="images/15もも浪漫_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal16">
-    <img src="images/16山下 知章_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal17">
-    <img src="images/17YANG DAEUN_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal18">
-    <img src="images/18吉見正樹_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
-    </a>
-  </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1187897345353!2d139.76413021744384!3d35.698694300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d6fb43a83%3A0x4309d3ce448a7a27!2z44OH44K444K_44Or44OP44Oq44Km44OD44OJ5aSn5a2m!5e0!3m2!1sja!2sjp!4v1630623406927!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
- <!-- Artist Modal -->
+        </div>
+       </div>
+     </div>
 
-<div class="modal fade" id="ArtModal6" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/6金城有万那_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal7" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/7澤田真吾_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal8" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/8高井登紀子_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal14" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/14宮本真桜_アー.jpeg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal15" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/15もも浪漫_アー.jpg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal16" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/16山下 知章_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal17" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/17YANG DAEUN_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-<div class="modal fade" id="ArtModal18" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-    <img src="images/18吉見正樹_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
-  </div>
-</div>  
-
-
+     <div class="modal fade" id="AccessModal" role="dialog">
+      <div class="modal-dialog">
+          <p>
+            〒101-0062</br>
+            東京都千代田区神田駿河台4-6</br>
+            御茶ノ水ソラシティ アカデミア 3F/4F
+          </p>
+          <p>
+            0120-019-236</br>
+          </p>
+          <p>
+            ・JR「御茶ノ水駅」より徒歩１分</br>
+            ・東京メトロ千代田線「新御茶ノ水駅」直結</br>
+            ・丸ノ内線「御茶ノ水駅」より徒歩4分</br>
+            【入館案内】</br>
+            入館方法の詳細は
+            <a href="https://gs.dhw.ac.jp/news/2013/04/10/dhgs_surugadai.pdf">こちら</a>
+            をご参照ください。</br>
+          </p>
+      </div>
+    </div>  
 
 
 <script src="assets/js/jquery.min.js"></script>
