@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mediaart_draft</title>
+</head>
+
+<!-- bootstrap -->
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  </head> -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="assets/css/font-awesome.css">
+
+<!-- style -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"><!--dot goticありかも-->
+<body>
+
+  <!-- header -->
+<div class="header">
+  <nav class="navbar navbar-inverse sticky-top">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-left temp-custom-list-items">
+          <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#HomeModal">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#ArtistModal">ARTIST</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#ContactModal">CONTACT</a></li>
+ 
+        </ul>
+      </div>
+  </nav>
+</div>
+  <!--====  End of navigation section  ====-->
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-12 col-md-8 " id="main_container" >
+        <!-- <canvas id="container" width="" height=""></canvas> -->
+        <div class="parallax-window" data-parallax="scroll" style="width:100%;height:400px; margin-top:100px; opacity:0.7;" data-image-src="images/poster.jpg">
+          <img src="images/logo.png" alt="">
+        </div>
+      </div>
+
+      <div class="visible-md visible-lg col-md-4 date">
+        <p1>37.5 <span>℃展</span></p1>
+        <p>10.18<span>MON</span></p>
+        <p>▼</p>
+        <p>10.24<span>SUN</span></p>
+      </div>
+
+    </div>  
+  </div>  
+  
+  <div class="container">
+    <div class="row enter_contents">
+        <p>10月18日 11:30 – 10月24日 18:30</p>
+        <p>〒101-0062 東京都千代田区神田駿河台４丁目４−６</br>
+        デジタルハリウッド大学３階　駿河台ホール</p>
+
+        <!-- <button type="button" class="button_enter btn btn-outline-dark btn-lg ">来場申込</button> -->
+        <a href="#">
+          <!-- <img src="images/mobile.png" alt=""> -->
+          来場申込</a>
+    </div>
+  </div>
+
+    <div class="text" class="col-md-12">
+      <h1>落合陽一氏が講師を務める</br>「メディアアート講義」で制作した作品展</h1>
+      <p>
+        「37.5」という数値を見て、何を思うのだろうか。</br>
+          現在、私たちはこの数値によってあらゆる「ゲート」で区切られている。</br></br>
+
+          この数値を基準にすることが一概に正しいとはいえないのにも関わらず、</br>
+          「0.1」というわずかな数値の違いが大きな意味を持ち、</br>
+          その人の運命を左右してしまう。</br>
+
+          この「37.5」という値のことを考えてみると、</br>
+          様々な疑問が湧いてくるかもしれない。</br></br>
+
+          この世界には、ふと立ち止まって考えてみると生じる疑問が多く存在する。</br></br>
+
+          トーマス・フリードマンが「めまぐるしく常識が入れ替わる時代」を</br>
+          「加速の時代」と形容したように、</br>
+          変化の激しい日常を生きる我々の信念や信条は</br>
+          信ずるに値するのだろうか。</br></br>
+
+          本展覧会を通じて、立ち止まって考えるきっかけについて再考してほしい。</br>
+      </p>
+    </div> 
+
+
+ <!-- Home Modal -->
+ <div class="modal fade" id="HomeModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+    </div>
+</div>  
+
+ <!-- Artist Modal -->
+ <div class="modal fade" id="ArtistModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+    </div>
+</div>  
+
+ <!-- Contact Modal -->
+ <div class="modal fade" id="ContactModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+
+    </div>
+</div>  
+
+<!-- About body -->
+<div>
+
+</div>
+    
+
+<div class="hes-gallery">
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal6">
+    <img class="img-responsive" src="images/6金城有万那_作品.jpg" style="  height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal7">
+    <img src="images/7澤田真吾_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal8">
+    <img src="images/8高井登紀子_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal14">
+    <img src="images/14宮本真桜_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal15">
+    <img src="images/15もも浪漫_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal16">
+    <img src="images/16山下 知章_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal17">
+    <img src="images/17YANG DAEUN_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#ArtModal18">
+    <img src="images/18吉見正樹_作品.jpg" style=" height: 200px; object-position:cover;" alt="" data-subtext=''>
+    </a>
+  </div>
+
+ <!-- Artist Modal -->
+
+<div class="modal fade" id="ArtModal6" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/6金城有万那_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal7" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/7澤田真吾_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal8" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/8高井登紀子_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal14" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/14宮本真桜_アー.jpeg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal15" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/15もも浪漫_アー.jpg" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal16" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/16山下 知章_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal17" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/17YANG DAEUN_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+<div class="modal fade" id="ArtModal18" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <img src="images/18吉見正樹_アー.JPG" style=" width: 100%; object-position:cover;" alt="" data-subtext=''>
+  </div>
+</div>  
+
+
+
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+
+<link rel="stylesheet" href="assets/gallery/style_2.css">
+<link rel="stylesheet" href="assets/gallery/style.css">
+<link rel="stylesheet" href="assets/gallery/src/hes-gallery.css">
+<script src="assets/gallery/dist/hes-gallery.js"></script>
+<script>
+
+    HesGallery.setOptions({
+        disableScrolling: false,
+        hostedStyles: false,
+        animations: true,
+
+        showImageCount: true,
+        wrapAround: true
+    });
+
+</script>
+
+<!-- parallax -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+<!-- requid master -->
+<script src="js/index.min.js"></script>
+
+
+</body>
+</html>
