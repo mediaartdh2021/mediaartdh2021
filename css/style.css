@@ -82,6 +82,13 @@ body {
   text-align: center;
 }
 
+.enter_contents_sm{
+  background-color: rgb(255,255,255,0.15);
+  padding:3%;
+  margin:3% auto;
+  text-align: center;
+}
+
 .enter_contents h{
   font-size: 18px;
   margin:10%;
@@ -119,10 +126,19 @@ body {
   margin:5%;
 }
 
+.pc_about{
+  font-size: 15px;
+}
+
+.sm_about{
+  font-size: 12px;
+}
+
+
 .text-left h1{font-size:20px;}
 
+/* map */
 .map_title h{
-
 }
 
 #AccessModal{
