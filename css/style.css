@@ -112,30 +112,30 @@ body {
 
 
 /* about */
-.text h1{
-  line-height:150%;
-  font-size: 20px;
-  margin:3%;
-}
-
-.text{
-  text-align: center;
-  /* font-family: 'Shippori Mincho', serif; */
-  font-family: 'DotGothic16', sans-serif;
-  font-size: 15px;
-  margin:5%;
+.pc_about h1{
+  line-height:25px;
+  letter-spacing:5px;
+  font-size: 25px;
+  margin:50px 0;
 }
 
 .pc_about{
   font-size: 15px;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+.sm_about h1{
+  line-height:25px;
+  letter-spacing:5px;
+  font-size:20px;
+  margin:50px 0;
 }
 
 .sm_about{
   font-size: 12px;
+  font-family: 'DotGothic16', sans-serif;
 }
 
-
-.text-left h1{font-size:20px;}
 
 /* map */
 .map_title h{
@@ -143,6 +143,8 @@ body {
 
 #AccessModal{
   background-color: rgb(0,0,0,0.8);
+  width:80%;
+  height:80%;
 }
 
 /* @media only screen and (min-width: 0px) and (max-width: 1000px) {
