@@ -137,6 +137,12 @@ body {
   font-family: 'DotGothic16', sans-serif;
 }
 
+/* Artist */
+.navbar img{
+  height: 200px; 
+  object-position:cover;
+}
+
 
 /* map */
 .map_title h{

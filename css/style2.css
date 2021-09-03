@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* font-family: 'Cinzel', serif; */
+body {
+  max-width: 1200px;
+  margin:0 auto;
+  font-family: 'Oswald', sans-serif;
+  font-size:16px;
+  line-height:40px;
+  letter-spacing:3.5px;
+  background-color: black;
+  color:white; 
+}
+
+img{
+  max-width:400px;
+  width: 100%;
+  object-position:cover;
+}
+
+h1{
+  font-family: 'DotGothic16', sans-serif;
+}
