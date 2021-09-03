@@ -147,4 +147,49 @@ body {
   height:80%; */
 }
 
-/* @media only screen and (min-width: 0px) and (max-width: 1000px) {
+/* @media only screen and (min-width: 0px) and (max-width: 1000px) {*/
+
+  .page_top{
+    width:140px;
+    height:30px;
+    position:fixed;
+    right:0;
+    bottom:0;
+  }
+  .page_top a{
+    padding:15px;
+    display:block;
+    font-size:12px;
+    /* background:#000; */
+    background:rgb(255, 255, 255);
+    color:#333;
+  }
+
+  .line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    /* font-size: 180%; */
+    /* color:white; */
+    /* font-family:'serif'; */
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+  /* Animation-2 */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+ blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
