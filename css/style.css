@@ -120,6 +120,7 @@ body {
 }
 
 .pc_about{
+  margin:0 auto;
   font-size: 15px;
   font-family: 'DotGothic16', sans-serif;
 }
