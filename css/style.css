@@ -154,6 +154,24 @@ body {
   height:80%; */
 }
 
+
+/* thanks */
+
+/* @font-face {
+  font-family: 'Myfont';
+  src: url('../assets/font/digital-7 (mono).ttf') format('woff'),
+       url('../assets/font/digital-7 (mono).ttf') format('truetype');
+}*/
+
+.thanks_name{
+	/*font-family: 'MyFont';*/
+  margin-top:10px;
+} 
+
+
+/* footer */
+
+
 /* @media only screen and (min-width: 0px) and (max-width: 1000px) {*/
 
   .page_top{
