@@ -32,10 +32,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet"><!--dot goticありかも-->
 <!-- <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Oswald&display=swap" rel="stylesheet"> -->
+
 <body>
 
   <!-- header -->
-<div class="header" id="section1">
+  <div class="header" id="section1">
   <nav class="navbar navbar-inverse sticky-top">
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -46,37 +47,16 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-left temp-custom-list-items">
-          <li class="nav-item"><a class="nav-link" href="#section2" data-toggle="modal" data-target="#HomeModal">HOME</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section3" data-toggle="modal" data-target="#ArtistModal">ARTIST</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section4" data-toggle="modal" data-target="#ContactModal">ACCESS</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section5" data-toggle="modal" data-target="#ContactModal">THANKS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section2">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section3">ARTIST</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section4">ACCESS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section5">THANKS</a></li>
  
         </ul>
       </div>
   </nav>
 </div>
 
- <!-- Home Modal -->
- <div class="modal fade" id="HomeModal" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-  </div>
-</div>  
-
-<!-- Artist Modal -->
-<div class="modal fade" id="ArtistModal" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-  </div>
-</div>  
-
-<!-- Contact Modal -->
-<div class="modal fade" id="ContactModal" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal content-->
-
-  </div>
-</div>  
 
 
   <!-- contents -->
@@ -143,7 +123,7 @@
     <div class="container">
 
       <div class="row visible-md visible-lg col-md-12 text-left pc_about">
-          <h1 class="line-1 anim-typewriter">落合陽一氏が講師を務める</br>「メディアアート講義」で制作した作品展</h1>
+          <h1 class="line-1 anim-typewriter">落合陽一氏が講師を務める</br>「メディアアート講義」で制作した</br>作品展</h1>
           <p>
             「37.5」という数値を見て、何を思うのだろうか。</br>
               現在、私たちはこの数値によってあらゆる「ゲート」で区切られている。</br></br>
@@ -337,7 +317,7 @@
        <div class="row">
           <div class="map_title col-md-12 col-sm-12 text-left" >
             <h>駿河台キャンパス</h>
-            <a class="" href="#" data-toggle="modal" data-target="#AccessModal">
+            <a class="" data-toggle="modal" data-target="#AccessModal">
             こちら</a>
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1187897345353!2d139.76413021744384!3d35.698694300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c1d6fb43a83%3A0x4309d3ce448a7a27!2z44OH44K444K_44Or44OP44Oq44Km44OD44OJ5aSn5a2m!5e0!3m2!1sja!2sjp!4v1630623406927!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -393,14 +373,20 @@
            <p class="line-1 anim-typewriter">TARO YAMADA</p></br>
         </div>
       </div>  
+    </div>
 
+
+    <div class="page_top">
+      <a href="#section1">▲ to page TOP </a>
+    </div>
+
+    
   <!-- footer -->
     <div class="container">
       <div class="row visible-md visible-lg " 
       style="
-      background-color: rgb(255,255,255,0.15);
+      /* background-color: rgb(255,255,255,0.15); */
       padding:3%;
-      margin:3% auto;
       text-align: center;">
 
         <img class="footer_img" src="images/dhu.png" alt="" style="width:200px; margin-bottom:10px;">
@@ -411,12 +397,11 @@
     </div>
 
     <div class="container">
-      <div class="row enter_contents_sm visible-sm visible-xs" 
+      <div class="row visible-sm visible-xs" 
       style="
       font-size:12px;
-      background-color: rgb(255,255,255,0.15);
+      /* background-color: rgb(255,255,255,0.15); */
       padding:3%;
-      margin:3% auto;
       text-align: center;">
 
         <img class="footer_img" src="images/dhu.png" alt="" style="width:100px;">
@@ -424,12 +409,7 @@
           </p>
       </div>
     </div>
-
-
-    <div class="page_top">
-      <a href="#section1">▲ to page TOP </a>
-    </div>
-
+ 
 <!-- gallery script -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -461,11 +441,9 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
   
-<!-- <script>$.scrollify({section:".box"});</script> -->
-  
 <!-- JQuery for scroll_action  -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<!-- <script src="assets/scroll/scroll.js"></script> -->
+<script src="assets/scroll/scroll.js"></script>
 
 
 </body>
