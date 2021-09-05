@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 /* font-family: 'Cinzel', serif; */
 body {
   max-width: 1200px;
   margin:0 auto;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Cinzel', serif;
   font-size:16px;
   line-height:40px;
   letter-spacing:3.5px;
@@ -80,6 +84,7 @@ body {
   padding:3%;
   margin:3% auto;
   text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .enter_contents_sm{
@@ -87,6 +92,7 @@ body {
   padding:3%;
   margin:3% auto;
   text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .enter_contents h{
@@ -122,7 +128,8 @@ body {
 .pc_about{
   margin:0 auto;
   font-size: 15px;
-  font-family: 'DotGothic16', sans-serif;
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .sm_about h1{
@@ -134,7 +141,8 @@ body {
 
 .sm_about{
   font-size: 12px;
-  font-family: 'DotGothic16', sans-serif;
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 /* Artist */
@@ -145,7 +153,8 @@ body {
 
 
 /* map */
-.map_title h{
+.map_contents{
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 #AccessModal{
@@ -165,12 +174,19 @@ body {
 
 .thanks_name{
 	/*font-family: 'MyFont';*/
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-family: 'Cinzel', serif;
+  font-weight:bold; 
+  font-size:10px;
   margin-top:10px;
 } 
 
 
 /* footer */
-
+.footer_txt{
+    /* font-family: 'DotGothic16', sans-serif; */
+    font-family: 'Cinzel', serif;
+}
 
 /* @media only screen and (min-width: 0px) and (max-width: 1000px) {*/
 

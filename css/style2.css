@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 /* font-family: 'Cinzel', serif; */
 body {
   max-width: 1200px;
   margin:0 auto;
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Cinzel', serif;
   font-size:16px;
   line-height:40px;
   letter-spacing:3.5px;
@@ -19,5 +23,6 @@ img{
 }
 
 h1{
-  font-family: 'DotGothic16', sans-serif;
+  /* font-family: 'DotGothic16', sans-serif; */
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
