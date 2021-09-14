@@ -1,14 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* font-family: 'Cinzel', serif; */
 body {
   max-width: 1200px;
   margin:0 auto;
   /* font-family: 'Oswald', sans-serif; */
-  font-family: 'Cinzel', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size:16px;
   line-height:40px;
   letter-spacing:3.5px;
@@ -18,7 +16,8 @@ body {
 
 img{
   max-width:400px;
-  width: 100%;
+  width: 80%;
+  height: 80%;
   object-position:cover;
 }
 

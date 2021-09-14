@@ -1,14 +1,19 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
 
-/* font-family: 'Cinzel', serif; */
+/* Gothic */
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
   max-width: 1200px;
   margin:0 auto;
   /* font-family: 'Oswald', sans-serif; */
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size:16px;
   line-height:40px;
   letter-spacing:3.5px;
@@ -75,6 +80,7 @@ body {
   font-size:15px;
 }
 
+
 /* contents2 */
 .enter_contents{
   line-height:25px;
@@ -84,7 +90,6 @@ body {
   padding:3%;
   margin:3% auto;
   text-align: center;
-  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .enter_contents_sm{
@@ -92,7 +97,6 @@ body {
   padding:3%;
   margin:3% auto;
   text-align: center;
-  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .enter_contents h{
@@ -104,16 +108,12 @@ body {
   font-size: 10px;
 }
 
-.enter_contents a {
-  color: #fff;
-  font-weight: bold;
-  background: #333;
-  padding: 18px 30px;
-  border-radius: 6px;
-  transition: .3s;
+.enter_contents_sm h{
+  font-size: 17px;
 }
-.enter_contents a:hover {
-  opacity: 0.6;
+
+.enter_contents_sm span{
+  font-size: 10px;
 }
 
 
@@ -127,9 +127,6 @@ body {
 
 .pc_about{
   margin:0 auto;
-  font-size: 15px;
-  /* font-family: 'DotGothic16', sans-serif; */
-  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 .sm_about h1{
@@ -141,27 +138,19 @@ body {
 
 .sm_about{
   font-size: 12px;
-  /* font-family: 'DotGothic16', sans-serif; */
-  font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 /* Artist */
-.navbar img{
-  height: 200px; 
+
+#ArtModal1 img{
+  max-width:400px;
+  width: 80%;
+  height: 80%;
   object-position:cover;
 }
 
 
 /* map */
-.map_contents{
-  font-family: 'Sawarabi Mincho', sans-serif;
-}
-
-#AccessModal{
-  background-color: rgb(0,0,0,0.8);
-  /* width:80%;
-  height:80%; */
-}
 
 
 /* thanks */
@@ -184,7 +173,6 @@ body {
 
 /* footer */
 .footer_txt{
-    /* font-family: 'DotGothic16', sans-serif; */
     font-family: 'Cinzel', serif;
 }
 
@@ -211,9 +199,6 @@ body {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    /* font-size: 180%; */
-    /* color:white; */
-    /* font-family:'serif'; */
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
