@@ -9,7 +9,8 @@
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+  <!-- font-awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
 
   <!-- style -->
   <!-- <link href="css/style.css" rel="stylesheet"> -->
@@ -22,68 +23,93 @@
   <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
 
 </head>
-<body 
-  style="
-  max-width: 1200px;
-  margin:0 auto;
-  font-family: 'Oswald', sans-serif;
-  font-size:16px;
-  line-height:40px;
-  letter-spacing:3.5px;
-  background-color: black;
-  color:white; "
-  >
-  <div>
+
+<body>
+    <div>
       <img src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/artistImages%2F1_asahi.JPG?alt=media&token=9f426b60-2c4c-44ea-a348-2d24bf06bb06"
-      style="
-      max-width:800px;
-      max-height:600px;
-      object-position:cover;
-      margin-left:10%;
-      ">
- </div>
-
-
- <div class="container"style="margin-left:10%;max-width:800px;">
-  <div class="row visible-md visible-lg text-left bg-dark artist_image "
- >
-
-      <div>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;margin:80px 0;">close</button></br>
-        <h1>サイボーグ化する植物</h1>
-        <p>義手・義足を身につけた人々もまた、サイボーグ化していると言える。</br> 義肢装具は外見や機能を補完する役割を持つもの。</br>しかし人間をはじめとする動物のみに使用されているのは、なぜだろう。</br>また動物以外のものを対象としたとき、どういった義肢装具になるのだろうか。</br>義手や義足の役割とその対象物について再考することで見える</br>サイボーグ化の未来を、この作品を通してぜひ垣間見ていただきたい。</br>
-        </p>
-      </div>
-
-      <div>
-        <h1>朝日浩志</h1>
-        <p>2000年、東京都生まれ。</br>
-          デジタルハリウッド大学の学部3年生で専攻はプログラミングとビジネス。</br>
-          在学中はディスプレイ・デバイス上のコンテンツ制作ができるようになることを目指して学んでいたが、</br>
-          落合教授の著書「魔法の世紀」を読み、メディアアートに初挑戦。</br></p>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;margin:80px 0;">close</button>
-      </div>
+        style="
+        max-width:800px;
+        max-height:600px;
+        width:80%;
+        object-position:cover;
+        margin-left:10%;
+        ">
     </div>
-  </div>
 
  <div class="container">
-  <div class="row visible-sm visible-xs text-left bg-dark artist_image "
-  style="margin-left:10%;max-width:400px;font-size:12px;">
+  <div class="row visible-md visible-lg text-left bg-dark artist_image ">
 
-      <div>
+    <div><span class="close_btn" style=" font-size: 1em; color:white; float: left;">
+      <i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close" >close</i>
+    </span></div></br>
+    
+      <div class="profile">
         <h1>サイボーグ化する植物</h1>
         <p>義手・義足を身につけた人々もまた、サイボーグ化していると言える。</br> 義肢装具は外見や機能を補完する役割を持つもの。</br>しかし人間をはじめとする動物のみに使用されているのは、なぜだろう。</br>また動物以外のものを対象としたとき、どういった義肢装具になるのだろうか。</br>義手や義足の役割とその対象物について再考することで見える</br>サイボーグ化の未来を、この作品を通してぜひ垣間見ていただきたい。</br>
         </p>
       </div>
 
-      <div>
+      <div class="profile">
         <h1>朝日浩志</h1>
         <p>2000年、東京都生まれ。</br>
           デジタルハリウッド大学の学部3年生で専攻はプログラミングとビジネス。</br>
           在学中はディスプレイ・デバイス上のコンテンツ制作ができるようになることを目指して学んでいたが、</br>
           落合教授の著書「魔法の世紀」を読み、メディアアートに初挑戦。</br></p>
       </div>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:white;margin:80px 0;">close</button>
+
+        <div style=" font-size: 2em; color:white; float: left;">
+          <a href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="">
+            <i class="fab fa-twitter" ></i>
+          </a>
+
+          <a href="">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row visible-sm visible-xs text-left bg-dark artist_image ">
+
+      <div><span class="close_btn" style=" font-size: 1em; color:white; float: left;">
+        <i class="fas fa-window-close" class="close" data-dismiss="modal" aria-label="Close" >close</i>
+      </span></div></br>
+
+      <div class="profile">
+        <h1>サイボーグ化する植物</h1>
+        <p>義手・義足を身につけた人々もまた、サイボーグ化していると言える。</br> 義肢装具は外見や機能を補完する役割を持つもの。</br>しかし人間をはじめとする動物のみに使用されているのは、なぜだろう。</br>また動物以外のものを対象としたとき、どういった義肢装具になるのだろうか。</br>義手や義足の役割とその対象物について再考することで見える</br>サイボーグ化の未来を、この作品を通してぜひ垣間見ていただきたい。</br>
+        </p>
+      </div>
+
+      <div class="profile">
+        <h1>朝日浩志</h1>
+        <p>2000年、東京都生まれ。</br>
+          デジタルハリウッド大学の学部3年生で専攻はプログラミングとビジネス。</br>
+          在学中はディスプレイ・デバイス上のコンテンツ制作ができるようになることを目指して学んでいたが、</br>
+          落合教授の著書「魔法の世紀」を読み、メディアアートに初挑戦。</br></p>
+      </div>
+
+        <div style=" font-size: 2em; color:white; float: left;">
+          <a href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="">
+            <i class="fab fa-twitter" ></i>
+          </a>
+
+          <a href="">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+        </div>
+        
     </div>
   </div>
 

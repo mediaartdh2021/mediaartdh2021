@@ -1,22 +1,24 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 /* Gothic */
 /* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
   max-width: 1200px;
   margin:0 auto;
   /* font-family: 'Oswald', sans-serif; */
   /* font-family: 'Cinzel', serif; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size:16px;
-  line-height:40px;
-  letter-spacing:3.5px;
+
+  font-size:14px;
+  line-height:30px;
+  letter-spacing:3px;
   background-color: black;
   color:white; 
 }
@@ -60,6 +62,8 @@ body {
 }
 
 .date{
+  margin : 5% 0;
+  font-family: 'Cinzel', serif;
   text-align: center;
   padding: 15% 10% 0 0 ;
   font-size:30px;
@@ -92,20 +96,23 @@ body {
   text-align: center;
 }
 
-.enter_contents_sm{
-  background-color: rgb(255,255,255,0.15);
-  padding:3%;
-  margin:3% auto;
-  text-align: center;
-}
-
 .enter_contents h{
   font-size: 18px;
   margin:10%;
 }
 
 .enter_contents span{
-  font-size: 10px;
+  font-size: 12px;
+}
+
+
+.enter_contents_sm{
+  line-height:2rem;
+  letter-spacing:0.5rem;
+  background-color: rgb(255,255,255,0.15);
+  padding:3%;
+  margin:3% auto;
+  text-align: center;
 }
 
 .enter_contents_sm h{
@@ -113,8 +120,49 @@ body {
 }
 
 .enter_contents_sm span{
-  font-size: 10px;
+  font-size: 8px;
 }
+
+.purchase_btn{
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  /* color: rgb(255, 255, 255); */
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing:5px;
+  /* background-color: #bbbbbb; */
+  /* box-shadow: 0 0 10px rgba(0 0 0 / .2); */
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.enter_contents_sm .purchase_btn{
+  width: 200px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing:3px;
+}
+
+.purchase_btn::after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  /* border-top: 3px solid #333333; */
+  /* border-right: 3px solid #333333; */
+  transform: rotate(45deg);
+}
+
+.purchase_btn a:hover {
+  text-decoration: none;
+  /* background-color: #aaaaaa; */
+  /* box-shadow: 0 0 10px rgba(0 0 0 / 0); */
+}
+
 
 
 /* about */
@@ -127,71 +175,68 @@ body {
 
 .pc_about{
   margin:0 auto;
+  font-size:16px;
+  line-height:40px;
+  letter-spacing:3.5px;
 }
 
 .sm_about h1{
-  line-height:25px;
-  letter-spacing:2px;
-  font-size:13px;
-  margin:50px 0;
+  font-size:14px;
+  line-height:35px;
+  letter-spacing:3px;
+  margin:30px 0;
 }
 
 .sm_about{
-  font-size: 12px;
+  /* font-size:8px;
+  line-height:30px;
+  letter-spacing:2px; */
+
+  font-size:14px;
+  line-height:35px;
+  letter-spacing:3px;
 }
 
 /* Artist */
 
-#ArtModal1 img{
-  max-width:400px;
-  width: 80%;
-  height: 80%;
-  object-position:cover;
+/* TA */
+.TA_column img{
+  border-radius: 50%;
+  width:  100px;
+  height: 100px; 
+  margin:10%;
 }
 
+.TA_column img:hover{
+ opacity:0.5;
+}
 
-/* map */
-
+.TA_column{
+  text-align: center;
+}
 
 /* thanks */
-
-/* @font-face {
-  font-family: 'Myfont';
-  src: url('../assets/font/digital-7 (mono).ttf') format('woff'),
-       url('../assets/font/digital-7 (mono).ttf') format('truetype');
-}*/
-
 .thanks_name{
-	/*font-family: 'MyFont';*/
-  /* font-family: 'DotGothic16', sans-serif; */
-  font-family: 'Cinzel', serif;
   font-weight:bold; 
   font-size:10px;
   margin-top:10px;
-} 
-
-
-/* footer */
-.footer_txt{
-    font-family: 'Cinzel', serif;
 }
 
-/* @media only screen and (min-width: 0px) and (max-width: 1000px) {*/
+/* footer */
+.footer{
+  padding:3%;
+  text-align: center;
+}
 
-  .page_top{
-    width:140px;
-    height:30px;
-    position:fixed;
-    right:0;
-    bottom:0;
-  }
-  .page_top a{
+.footer_img{
+  width:200px; 
+  margin:10px;
+}
 
-    display:block;
-    font-size:20px;
-    background:rgb(255, 255, 255);
-    color:black;
-  }
+.footer_img_sm{
+  width:100px; 
+  margin:10px;
+}
 
   .line-1{
     position: relative;

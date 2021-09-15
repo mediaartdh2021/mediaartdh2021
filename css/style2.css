@@ -2,26 +2,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-  max-width: 1200px;
-  margin:0 auto;
   /* font-family: 'Oswald', sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size:16px;
-  line-height:40px;
+
+  max-width: 1200px;
+  margin:10% auto;
+
+  font-size:15px;
+  line-height:30px;
   letter-spacing:3.5px;
+  
   background-color: black;
   color:white; 
 }
 
-img{
-  max-width:400px;
-  width: 80%;
-  height: 80%;
-  object-position:cover;
+h1{
+  margin:3% 0 ;
+  font-size:18px;
 }
 
-h1{
-  /* font-family: 'DotGothic16', sans-serif; */
-  font-family: 'Sawarabi Mincho', sans-serif;
+.container{
+  margin:10%;
+  max-width: 800px;
+}
+
+.profile{
+  margin-top:10px;
+}
+
+.close_btn{
+  font-size: 2em; 
+  color:white; 
+  float: right;
+}
+
+@media only screen and (min-width: 0px)
+    and (max-width: 768px){
+
+      body{
+        max-width: 1200px;
+        margin:10% auto;
+        /* font-size:8px;
+        line-height:15px;
+        letter-spacing:2px; */
+
+        font-size:14px;
+        line-height:30px;
+        letter-spacing:3px;
+        background-color: black;
+        color:white; 
+      }
+
+      h1{
+        margin:30px 0 ;
+        font-size:18px;
+      }
+
+      .profile{
+        margin-top:50px;
+      }
 }
