@@ -35,6 +35,15 @@ body {
   letter-spacing:7px;
 }
 
+/* .header{
+  max-width:800px;
+} */
+
+.sns_icon{
+  font-size: 2em; 
+  color:white; 
+}
+
 /* contents */
 #container{
   /* position:absolute; */
