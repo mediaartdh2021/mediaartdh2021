@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-
 /* Gothic */
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@font-face {
+  font-family: 'BIZ_UDP';
+  src: url('../assets/font/BIZ-UDGothicR.ttc') format('ttc'),}
+
+
 
 body {
   max-width: 1200px;
   margin:0 auto;
-  /* font-family: 'Oswald', sans-serif; */
-  /* font-family: 'Cinzel', serif; */
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'BIZ_UDP';
 
   font-size:14px;
   line-height:30px;
@@ -27,6 +25,7 @@ body {
   padding:5%;
   opacity:0.5;
   letter-spacing:10px;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* header */
@@ -35,12 +34,8 @@ body {
   letter-spacing:7px;
 }
 
-/* .header{
-  max-width:800px;
-  max-height:300px
-} */
-
 .sns_icon{
+  margin:5px;
   font-size: 2em; 
   color:white; 
 }
@@ -140,13 +135,11 @@ body {
   margin: 0 auto;
   padding: 1em 2em;
   width: 300px;
-  /* color: rgb(0, 0, 0); */
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* color: rgb(255, 255, 255); */
   font-size: 18px;
   font-weight: 700;
   letter-spacing:5px;
-  /* background-color: #bbbbbb; */
-  /* box-shadow: 0 0 10px rgba(0 0 0 / .2); */
   border-radius: 6px;
   transition: 0.3s;
 }
@@ -272,4 +265,8 @@ body {
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+@viewport {
+  width: 100vw;
 }
