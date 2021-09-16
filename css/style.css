@@ -3,16 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @font-face {
-  font-family: 'BIZ_UDP';
-  src: url('../assets/font/BIZ-UDGothicR.ttc') format('ttc'),}
-
-
+  font-family: 'myfont';
+  src: url('../assets/font/BIZ-UDGothic-01.ttf') format('truetype')}
 
 body {
   max-width: 1200px;
   margin:0 auto;
   /* font-family: 'Noto Sans JP', sans-serif; */
-  font-family: 'BIZ_UDP';
+  font-family: 'myfont', sans-serif;
 
   font-size:14px;
   line-height:30px;
@@ -170,10 +168,15 @@ body {
 
 /* about */
 .pc_about h1{
-  line-height:25px;
-  letter-spacing:5px;
+  /* font-size: 25px; */
+  /* line-height:40px; */
   font-size: 25px;
+  line-height:20px;
+  letter-spacing:5px;
   margin:50px 0;
+}
+.pc_about span{
+  font-size:10px;
 }
 
 .pc_about{
@@ -184,10 +187,15 @@ body {
 }
 
 .sm_about h1{
-  font-size:14px;
-  line-height:35px;
+  /* font-size:16px; */
+  /* line-height:35px; */
+  font-size:18px;
+  line-height:15px;
   letter-spacing:3px;
   margin:30px 0;
+}
+.sm_about span{
+  font-size:8px;
 }
 
 .sm_about{

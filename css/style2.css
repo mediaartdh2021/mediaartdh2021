@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+  font-family: 'myfont';
+  src: url('../assets/font/BIZ-UDGothic-01.ttf') format('truetype')}
 
 body {
   max-width: 1200px;
   margin:0 auto;
   /* font-family: 'Noto Sans JP', sans-serif; */
-  font-family: 'BIZ_UDP';
+  font-family: 'myfont';
 
   font-size:14px;
   line-height:30px;
