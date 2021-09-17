@@ -187,11 +187,6 @@ body {
 /* about */
 
 .about{
-  font-size:16px;
-  line-height:40px;
-  letter-spacing:3.5px;
-}
-.about{
   margin:0 auto;
   font-size:12px;
   line-height:2.5em;
