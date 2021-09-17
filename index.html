@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=10, maximum-scale=1"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1, maximum-scale=1">
 
   <meta property="og:title" content="2021メディアアート展示会「37.5℃展」" />
   <meta property="og:type" content="website" />
@@ -15,7 +15,18 @@
   <meta property="twitter:card" content="summary">
 
   <title>37.5℃展</title>
-
+      <style>
+        .modal-open {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+      }
+      .modal-open .modal {
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding-right: 0!important;
+      }
+      </style>
 </head>
 
 <!-- bootstrap -->
@@ -55,7 +66,7 @@
               <li class="nav-item"><a class="nav-link" href="#section2">HOME</a></li>
               <li class="nav-item"><a class="nav-link" href="#section3">ARTWORK</a></li>
               <li class="nav-item"><a class="nav-link" href="#section4">ACCESS</a></li>
-              <li class="nav-item"><a class="nav-link" href="#section5">THANKS</a></li>
+              <!-- <li class="nav-item"><a class="nav-link" href="#section5">THANKS</a></li> -->
             </ul>
 
             <ul class="nav navbar-nav navbar-right visible-md visible-lg">
@@ -207,18 +218,19 @@
       ARTWORK
     </h1>
 
-
+    <!-- <div class="container"> -->
+      <!-- <div class="row artist_gallery"> -->
     <div class="hes-gallery">
 
-        <a class="nav-link"  data-toggle="modal" data-target="#ArtModal1" href="ad1.html">
+        <a class="nav-link "  data-toggle="modal" data-target="#ArtModal1" href="ad1.html">
           <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/workImages%2F1_asahi.jpg?alt=media&token=21b2aecd-0011-4731-b46c-61b7a9b46289">
         </a>
 
-        <a class="nav-link"  data-toggle="modal" data-target="#ArtModal2" href="ad2.html">
+        <a class="nav-link "  data-toggle="modal" data-target="#ArtModal2" href="ad2.html">
           <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/workImages%2F2_ishii.jpg?alt=media&token=5f0ea122-fbe8-4bb0-af78-da9c112a9846">
         </a>
 
-        <a class="nav-link"  data-toggle="modal" data-target="#ArtModal3" href="ad3.html">
+        <a class="nav-link "  data-toggle="modal" data-target="#ArtModal3" href="ad3.html">
           <img class="img-responsive" src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/workImages%2F3_ishimoto.JPG?alt=media&token=d5ff4c68-d5eb-42ca-8339-fadf64c43979">
         </a>
 
@@ -283,6 +295,8 @@
         </a>
 
     </div>
+      <!-- </div>  -->
+    <!-- </div>  -->
 
     <!-- Artist Modal -->
       <!-- Modal content-->
@@ -510,7 +524,6 @@
 <!-- gallery script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="assets/gallery/hes-gallery.js"></script>
 <script>
 
     HesGallery.setOptions({
@@ -535,7 +548,6 @@
 <!-- JQuery for scroll_action  -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script src="assets/scroll/scroll.js"></script>
-
 
 </body>
 </html>
