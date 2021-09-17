@@ -1,16 +1,29 @@
 /* Gothic */
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@font-face {
+/* @font-face {
   font-family: 'myfont';
-  src: url('../assets/font/BIZ-UDGothic-01.ttf') format('truetype')}
+  src: url('../assets/font/BIZ-UDGothic-01.ttf') format('truetype')} */
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+}
+
+ul{
+  list-style: none;
+}
 
 body {
   max-width: 1200px;
   margin:0 auto;
-  /* font-family: 'Noto Sans JP', sans-serif; */
-  font-family: 'myfont', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  /* font-family: 'myfont', sans-serif; */
 
   font-size:14px;
   line-height:30px;
@@ -23,6 +36,10 @@ body {
   padding:5%;
   opacity:0.5;
   letter-spacing:10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title{
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -50,6 +67,7 @@ body {
   url("images/poster.png");
   background-repeat:  no-repeat;
   background-position: right center; 
+  text-align: center;
 }
 
 .parallax-window{
@@ -60,7 +78,7 @@ body {
 }
 
 #main_container img{
-  width:100%;
+  width:60%;
   height:80%;
 }
 
@@ -134,7 +152,7 @@ body {
   padding: 1em 2em;
   width: 300px;
   color: rgb(0, 0, 0);
-  /* color: rgb(255, 255, 255); */
+  background-color:rgb(233, 233, 233);
   font-size: 18px;
   font-weight: 700;
   letter-spacing:5px;
@@ -167,46 +185,24 @@ body {
 
 
 /* about */
-.pc_about h1{
-  /* font-size: 25px; */
-  /* line-height:40px; */
-  font-size: 25px;
-  line-height:20px;
-  letter-spacing:5px;
-  margin:50px 0;
-}
-.pc_about span{
-  font-size:10px;
-}
 
-.pc_about{
+.about{
   margin:0 auto;
-  font-size:16px;
-  line-height:40px;
-  letter-spacing:3.5px;
+  font-size:12px;
+  line-height:2.5em;
+  letter-spacing:0.25em;
+  text-align: left;
+}
+.about span{
+  font-size:0.6em;
 }
 
-.sm_about h1{
-  /* font-size:16px; */
-  /* line-height:35px; */
-  font-size:18px;
-  line-height:15px;
-  letter-spacing:3px;
-  margin:30px 0;
-}
-.sm_about span{
-  font-size:8px;
+@media screen and (min-width: 992px) {
+  .about{
+    font-size:16px;
+  }
 }
 
-.sm_about{
-  /* font-size:8px;
-  line-height:30px;
-  letter-spacing:2px; */
-
-  font-size:14px;
-  line-height:35px;
-  letter-spacing:3px;
-}
 
 /* Artist */
 
@@ -247,34 +243,4 @@ body {
 .footer_img_sm{
   width:100px; 
   margin:10px;
-}
-
-  .line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-}
-
-  /* Animation-2 */
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
- blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 21em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
-
-@viewport {
-  width: 100vw;
 }
