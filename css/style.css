@@ -19,19 +19,6 @@ ul{
   list-style: none;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-	font-size: 100%;
-	font: inherit;
-  vertical-align: baseline;
-}
-
-ul{
-  list-style: none;
-}
-
 body {
   max-width: 1200px;
   margin:0 auto;
@@ -58,7 +45,7 @@ body {
 
 /* header */
 #myNavbar {
-  padding-top:3%;
+  padding-top:0.5%;
   letter-spacing:7px;
 }
 
