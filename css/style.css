@@ -185,7 +185,7 @@ body {
   font-size:12px;
   line-height:2.5em;
   letter-spacing:0.25em;
-  text-align: center;
+  text-align: left;
   word-break: keep-all;
   overflow-wrap: break-word;
 }
