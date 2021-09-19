@@ -35,6 +35,8 @@
         letter-spacing:3px;
         background-color: black;
         color:white; 
+
+        word-break: keep-all;
       }
 
       .profile h1{

@@ -30,10 +30,6 @@ body {
   letter-spacing:3px;
   background-color: black;
   color:white; 
-
-  /* width:100vw; */
-  /* height: 100vh; */
-  /* overflow: hidden; */
 }
 
 .t_title{
@@ -189,7 +185,9 @@ body {
   font-size:12px;
   line-height:2.5em;
   letter-spacing:0.25em;
-  text-align: left;
+  text-align: center;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 .about span{
   font-size:0.6em;
@@ -198,6 +196,8 @@ body {
 @media screen and (min-width: 992px) {
   .about{
     font-size:16px;
+    text-align: center;
+    word-break: keep-all;
   }
 }
 
