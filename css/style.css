@@ -234,11 +234,11 @@ body {
 }
 
 .footer_img{
-  width:200px; 
-  margin:10px;
+  width:300px; 
+  /* margin:10px; */
 }
 
 .footer_img_sm{
-  width:100px; 
-  margin:10px;
+  width:200px; 
+  /* margin:10px; */
 }
