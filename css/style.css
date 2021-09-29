@@ -49,6 +49,30 @@ body {
   letter-spacing:7px;
 }
 
+#spHeaderLinkWrap{
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cloudFoundLink{
+  text-align: center;
+  background-color: #ffffff;
+  width: 260px;
+  margin: 0 20px;
+}
+
+#spHeaderLinkWrap .cloudFoundLink{
+  width: 100%;
+  margin: 0 20px;
+}
+
+.cloudFoundLink > img{
+  width: 100%;
+  max-width: 300px;
+}
+
 .sns_icon{
   margin:5px;
   font-size: 2em; 
