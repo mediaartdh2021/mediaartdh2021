@@ -49,6 +49,30 @@ body {
   letter-spacing:7px;
 }
 
+#spHeaderLinkWrap{
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cloudFoundLink{
+  text-align: center;
+  background-color: #ffffff;
+  width: 260px;
+  margin: 0 20px;
+}
+
+#spHeaderLinkWrap .cloudFoundLink{
+  width: 100%;
+  margin: 0 20px;
+}
+
+.cloudFoundLink > img{
+  width: 100%;
+  max-width: 300px;
+}
+
 .sns_icon{
   margin:5px;
   font-size: 2em; 
@@ -138,28 +162,33 @@ body {
   font-size: 8px;
 }
 
-.purchase_btn{
-  /* display: flex;
-  justify-content: space-between; */
+.btn_main{
+  display: inline-flex;
   align-items: center;
-  margin: 0 auto;
-  padding: 1em 2em;
+  justify-content: center;
   width: 300px;
+  min-height: 68px;
+  margin: 0 auto 20px;
+  padding: 1em auto;
+  vertical-align: middle;
   color: rgb(0, 0, 0);
   background-color:rgb(233, 233, 233);
   font-size: 18px;
-  font-weight: 700;
-  letter-spacing:5px;
-  border-radius: 6px;
   transition: 0.3s;
 }
 
-.enter_contents_sm .purchase_btn{
-  width: 200px;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing:3px;
+.btn_main img{
+  width: 100%;
 }
+
+@media screen and (max-width: 992px) {
+  .btn_main{
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing:3px;
+  }
+
 
 .purchase_btn::after {
   content: '';
