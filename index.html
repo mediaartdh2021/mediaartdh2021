@@ -26,6 +26,7 @@
 
 <!-- style -->
 <link href="css/import.css" rel="stylesheet">
+<link href="assets/popup/popup.css" rel="stylesheet">
 
 <body>
 
@@ -35,23 +36,19 @@
   max-height:300px">
     
       <div class="container">
-          <div class="visible-xs">
-            <div id="spHeaderLinkWrap">
-              <a href="https://twitter.com/mediaartdh2021">
-                  <i class="fab fa-twitter sns_icon"></i>
-              </a>
-              <a href="https://www.instagram.com/37.5_c__/">
-                  <i class="fab fa-instagram-square sns_icon"></i>
-              </a>
-              <a href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank" class="cloudFoundLink">
-                <img src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
-              </a>
-              <button type="button" class="navbar-toggle navbar-fixed-top" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-            </div>
+          <div class="visible-xs visible-sm">
+                <a href="https://twitter.com/mediaartdh2021">
+                    <i class="fab fa-twitter sns_icon"></i>
+                </a>
+                <a href="https://www.instagram.com/37.5_c__/">
+                    <i class="fab fa-instagram-square sns_icon"></i>
+                </a>
+
+            <button type="button" class="navbar-toggle navbar-fixed-top" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
           </div>
 
           <div class="collapse navbar-collapse " id="myNavbar">
@@ -61,13 +58,6 @@
               <li class="nav-item"><a class="nav-link" href="#section4">ACCESS</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="#section5">THANKS</a></li> -->
             </ul>
-            
-            <ul class="nav navbar-nav navbar-right visible-md visible-lg">
-              <li class="">
-                <a href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank" class="cloudFoundLink" style="">
-                  <img src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
-                </a>
-              </li>
 
             <ul class="nav navbar-nav navbar-right visible-md visible-lg">
               <li class=""><a href="https://twitter.com/mediaartdh2021">
@@ -85,7 +75,12 @@
   </nav>
 </div>
 
-
+<!-- popup -->
+<div class="popup_nav">
+  <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank">
+    <img style="width:200px; background:white; " src="images/cf_logo_pr_vertical.png" alt="クラウドファンディング公開中">
+  </a>
+</div>
 
   <!-- contents -->
   <div class="container">
@@ -129,13 +124,9 @@
         完全予約制（無料）</br>
       </p>
 
-      <button class="btn_main" type=“button” onclick="location.href='https://forms.gle/BeN59TR6TKE2B8Y67'">
+      <button class="purchase_btn" type=“button” onclick="location.href='https://forms.gle/BeN59TR6TKE2B8Y67'">
         <i class="fas fa-edit"></i>来場申込
       </button>
-
-      <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank" style="width:400px;">
-        <img src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
-      </a>
 
       </br></br>
       <p>
@@ -168,13 +159,9 @@
           完全予約制（無料）</br>
         </p>
 
-        <button class="btn_main" type=“button” onclick="location.href='https://forms.gle/BeN59TR6TKE2B8Y67'">
+        <button class="purchase_btn" type=“button” onclick="location.href='https://forms.gle/BeN59TR6TKE2B8Y67'">
           <i class="fas fa-edit"></i>来場申込
         </button>
-        <br>
-        <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank">
-          <img src="images/cf_logo_pr_vertical.png" alt="クラウドファンディング公開中">
-        </a>
 
       </br></br>
       <p>
@@ -195,7 +182,7 @@
       <div class="row col-md-12 text-center about">
           
           <p>
-            「37.5」という数値を見て、何を思うだろうか。</br>
+            「37.5」という数値を見て、何を思うのだろうか。</br>
               現在、私たちはこの数値によってあらゆる「ゲート」で区切られている。</br></br>
 
               この数値を基準にすることが一概に正しいとはいえないのにも関わらず、</br>
@@ -553,6 +540,20 @@
 <!-- JQuery for scroll_action  -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script src="assets/scroll/scroll.js"></script>
+
+<!-- popup -->
+<script>
+    var menuHeight = $(".popup_nav").height();
+    $(window).scroll(function(){
+      if ($(window).scrollTop() >200){
+        // $(".popup_nav").css("top", 0 + "px");
+        // $(".popup_nav").css("bottom",  0 + "px");
+      } else {
+        // $(".popup_nav").css("top", "-" + menuHeight + 5 + "px");
+        $(".popup_nav").css("bottom", menuHeight  + "px");
+      }
+    });
+</script>
 
 </body>
 </html>
