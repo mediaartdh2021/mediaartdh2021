@@ -53,19 +53,23 @@ text-align: center;
 
 .crowdfund_text{
   font-size:1vw;
+  padding: 30px;
   overflow-wrap: break-word;
 }
 
+.crowdfund_title{
+  font-size:2vw;
+}
 /* @media screen and (max-width: 992px) { */
 @media screen and (max-width: 992px) {
 
   .crowdfund_title{
-    font-size:5vw;
+    font-size:8vw;
   }
 
   .crowdfund_text{
     text-align:left;
-    font-size:3.7vw;
+    font-size:3vw;
     /* font-size:16px; */
     overflow-wrap: break-word;
   }
