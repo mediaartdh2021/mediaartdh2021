@@ -60,6 +60,18 @@ text-align: center;
 .crowdfund_title{
   font-size:2vw;
 }
+
+.btn_main{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_main > span{
+  display: inline-block;
+  width: 100%;
+}
+
 /* @media screen and (max-width: 992px) { */
 @media screen and (max-width: 992px) {
 
@@ -77,11 +89,5 @@ text-align: center;
 
   .count-up{
     font-size:10vw;
-  }
-
-  .btn_main{
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
   }
 }
