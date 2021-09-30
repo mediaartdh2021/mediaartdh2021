@@ -80,10 +80,8 @@ text-align: center;
   }
 
   .btn_main{
-    display:block;
-  }
-
-  .btn_main{
-    display:block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
 }
