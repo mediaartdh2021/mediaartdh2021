@@ -64,7 +64,8 @@ text-align: center;
 @media screen and (max-width: 992px) {
 
   .crowdfund_title{
-    font-size:8vw;
+    font-size:7vw;
+    text-align:center;
   }
 
   .crowdfund_text{
