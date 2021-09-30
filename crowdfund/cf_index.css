@@ -15,71 +15,70 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
           
-          .lead{
-            padding: 20px;
-            text-align: center;
-          }
+.lead{
+padding: 20px;
+text-align: center;
+}
 
-          .box{
-            max-width:500px;
-            width:100%;
-            margin: 30px auto;
-            padding: 20px;
-            text-align: center;
-          }
+.box{
+max-width:500px;
+width:100%;
+margin: 30px auto;
+padding: 20px;
+text-align: center;
+}
 
-          .box2{
-            width:100%;
-            /* padding: auto; */
-            margin: auto;
-            /* text-align: center; */
-          }
+.box2{
+width:100%;
+/* padding: auto; */
+margin: auto;
+/* text-align: center; */
+}
 
-          .count-up{
-            font-family: 'Oswald', sans-serif;
-            font-size:3vw;
-            font-weight: bold;
-            color: white;
-          }
+.count-up{
+font-family: 'Oswald', sans-serif;
+font-size:3vw;
+font-weight: bold;
+color: white;
+}
 
-          .parallax-window{
-            width:100%;
-            height:100%; 
-            /* margin:20% auto;  */
-            margin:0 0 0 0; 
-            text-align: center;
-            /* opacity:0.5; */
-          }
+.parallax-window{
+width:100%;
+height:100%; 
+/* margin:20% auto;  */
+margin:0 0 0 0; 
+text-align: center;
+/* opacity:0.5; */
+}
 
-          .crowdfund_text{
-              font-size:1vw;
-              overflow-wrap: break-word;
-            }
+.crowdfund_text{
+  font-size:1vw;
+  overflow-wrap: break-word;
+}
 
-            /* @media screen and (max-width: 992px) { */
-            @media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) { */
+@media screen and (max-width: 992px) {
 
-              .crowdfund_title{
-                font-size:5vw;
-              }
+  .crowdfund_title{
+    font-size:5vw;
+  }
 
-              .crowdfund_text{
-                text-align:left;
-                font-size:3.7vw;
-                /* font-size:16px; */
-                overflow-wrap: break-word;
-              }
+  .crowdfund_text{
+    text-align:left;
+    font-size:3.7vw;
+    /* font-size:16px; */
+    overflow-wrap: break-word;
+  }
 
-            .count-up{
-              font-size:10vw;
-            }
+  .count-up{
+    font-size:10vw;
+  }
 
-            .btn_main{
-              display:block;
-            }
+  .btn_main{
+    display:block;
+  }
 
-              .btn_main{
-                display:block;
-              }
-            }
-            
+  .btn_main{
+    display:block;
+  }
+}
