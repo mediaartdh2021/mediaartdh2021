@@ -75,7 +75,7 @@
               <li class="nav-item"><a class="nav-link" href="#section2">HOME</a></li>
               <li class="nav-item"><a class="nav-link" href="#section3">ARTWORK</a></li>
               <li class="nav-item"><a class="nav-link" href="#section4">ACCESS</a></li>
-              <!-- <li class="nav-item"><a class="nav-link" href="#section5">THANKS</a></li> -->
+              <li class="nav-item"><a class="nav-link" href="crowdfund/">CROWDFUND</a></li>
             </ul>
 
             <!-- <ul class="nav navbar-nav navbar-right visible-md visible-lg">
@@ -103,7 +103,7 @@
 
 <!-- popup -->
 <div class="popup_nav">
-  <a class="" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank">
+  <a class="" href="https://camp-fire.jp/projects/view/491204" target="_blank">
     <img style="width:200px; background:white; " src="images/cf_logo_pr_vertical.png" alt="クラウドファンディング公開中">
   </a>
 </div>
@@ -154,8 +154,8 @@
         <i class="fas fa-edit"></i>来場申込
       </button>
 
-      <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank" style="width:400px;">
-        <img src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
+      <a class="btn_main" href="https://camp-fire.jp/projects/view/491204" target="_blank" >
+        <img  src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
       </a>
 
       </br></br>
@@ -530,7 +530,6 @@
       <div class="row visible-md visible-lg footer" >
 
         <img class="footer_img" src="images/dhu.png" alt="" >
-        <!-- <img class="footer_img" src="images/gs_logo.png" alt=""> -->
           <p class="footer_txt">Copyright c 2021 Digital Hollywood Co.,Ltd. All Rights Reserved.
           </p>
 
@@ -541,7 +540,6 @@
       <div class="row visible-sm visible-xs footer" >
 
         <img class="footer_img_sm" src="images/dhu.png" alt="" >
-        <!-- <img class="footer_img_sm" src="images/gs_logo.png" alt=""> -->
           <p class="footer_txt">Copyright c 2021 Digital Hollywood Co.,Ltd. All Rights Reserved.
           </p>
       </div>
@@ -579,12 +577,10 @@
 <script>
     var menuHeight = $(".popup_nav").height();
     $(window).scroll(function(){
-      if ($(window).scrollTop() >200){
-        // $(".popup_nav").css("top", 0 + "px");
-        // $(".popup_nav").css("bottom",  0 + "px");
-      } else {
-        // $(".popup_nav").css("top", "-" + menuHeight + 5 + "px");
+      if ($(window).scrollTop() >900){
         $(".popup_nav").css("bottom", menuHeight  + "px");
+      } else {
+   
       }
     });
 </script>
