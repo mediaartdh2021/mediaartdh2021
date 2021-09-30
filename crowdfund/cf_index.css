@@ -1,0 +1,93 @@
+/*出現のjava script*/
+.sa {
+  opacity: 0.0;
+  transition: all .5s ease;}
+.sa.show {
+  opacity: 1;
+  transform: none;}
+.sa–up{
+  transform: translate(0, 100px);}
+.sa--lr {
+    transform: translate(-100px, 0);}
+.sa--rl {
+    transform: translate(100px, 0);}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+          
+.lead{
+padding: 20px;
+text-align: center;
+}
+
+.box{
+max-width:500px;
+width:100%;
+margin: 30px auto;
+padding: 20px;
+text-align: center;
+}
+
+.box2{
+width:100%;
+/* padding: auto; */
+margin: auto;
+/* text-align: center; */
+}
+
+.count-up{
+font-family: 'Oswald', sans-serif;
+font-size:3vw;
+font-weight: bold;
+color: white;
+}
+
+.parallax-window{
+width:100%;
+height:100%; 
+/* margin:20% auto;  */
+margin:0 0 0 0; 
+text-align: center;
+/* opacity:0.5; */
+}
+
+.crowdfund_text{
+  font-size:1vw;
+  padding: 30px;
+  overflow-wrap: break-word;
+}
+
+.crowdfund_title{
+  font-size:2vw;
+}
+
+.btn_main{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_main > span{
+  display: inline-block;
+  width: 100%;
+}
+
+/* @media screen and (max-width: 992px) { */
+@media screen and (max-width: 992px) {
+
+  .crowdfund_title{
+    font-size:7vw;
+    text-align:center;
+  }
+
+  .crowdfund_text{
+    text-align:left;
+    font-size:3vw;
+    /* font-size:16px; */
+    overflow-wrap: break-word;
+  }
+
+  .count-up{
+    font-size:10vw;
+  }
+}

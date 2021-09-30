@@ -1,0 +1,15 @@
+.popup_nav{
+	height: 40px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	position: fixed;
+	z-index: 9999;
+	opacity: 0.95;
+	/* top:-80px; */
+	/* left:0; */
+  bottom:-40px;
+	right:0;
+	transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
