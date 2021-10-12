@@ -123,6 +123,11 @@ body {
   font-size:15px;
 }
 
+/* news */
+.news_text{
+  padding:5%;
+}
+
 
 /* contents2 */
 .enter_contents{
