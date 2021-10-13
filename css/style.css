@@ -123,6 +123,17 @@ body {
   font-size:15px;
 }
 
+/* news */
+.news_text{
+  padding: 0 3% 3%;
+  margin:0 auto;
+}
+
+.sns_text{
+  margin:0 auto;
+  /* text-align: center; */
+}
+
 
 /* contents2 */
 .enter_contents{
