@@ -125,7 +125,13 @@ body {
 
 /* news */
 .news_text{
-  padding:5%;
+  padding: 0 3% 3%;
+  margin:0 auto;
+}
+
+.sns_text{
+  margin:0 auto;
+  /* text-align: center; */
 }
 
 
