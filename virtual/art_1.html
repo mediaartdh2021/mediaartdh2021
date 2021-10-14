@@ -36,9 +36,24 @@
       padding: 2%;
       box-sizing: border-box;
     }
+    #fixedScrollArea{
+      position: fixed;
+      display: block;
+      bottom: 0;
+      width: 100%;
+      background: linear-gradient( rgba(0,0,0,0) 10%, rgba(0,0,0,1) );
+      animation: scrollAreaVanish 1s linear 0s;
+      animation-delay: 3s;
+      animation-fill-mode: forwards;
+      pointer-events: none;
+    }
+    @keyframes scrollAreaVanish{
+      from{ opacity: 1 } 99.9%, to { opacity: 0;
+      }
+    }
     .iconScroll{
       position: relative;
-      margin-bottom: 10px;
+      margin: 10px auto;
       padding-top: 14px;
       font-size: 0.8rem;
       text-align: center;
@@ -63,7 +78,7 @@
       .block{
         width: 50%;
       }
-      .iconScroll{
+      #fixedScrollArea{
         display: none;
       }
     }
@@ -73,10 +88,6 @@
     <div class="block">
       <div>
         <video src="../movie/art_1.mov" controls autoplay muted style="width: 100%"></video>
-      </div>
-      <div class="iconScroll">
-        <span></span>
-        scroll
       </div>
     </div>
     <div  class="block">
@@ -112,7 +123,12 @@
           在学中はディスプレイ・デバイス上のコンテンツ制作ができるようになることを目指して学んでいたが、
           落合教授の著書「魔法の世紀」を読み、メディアアートに初挑戦。</br></p>
       </div>
-
+    </div>
+  </div>
+  <div id="fixedScrollArea">
+    <div class="iconScroll">
+      <span></span>
+      scroll
     </div>
   </div>
 </body>
