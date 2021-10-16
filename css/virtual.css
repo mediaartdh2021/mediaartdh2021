@@ -68,3 +68,7 @@ body{
     object-position:cover;
     margin-left:5%;
 }
+
+.profile h1{
+    font-size: 1.6em;
+}
