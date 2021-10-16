@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(style.css);
+@import url(style2.css);
+@import url(gallery.css);
+@import url(typewriter.css);
+@import url(modal.css);
+@import url(virtual.css);

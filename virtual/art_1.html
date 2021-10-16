@@ -13,77 +13,10 @@
   <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
 
   <!-- style -->
-  <link href="../css/import.css" rel="stylesheet">
+  <link href="../css/import_virtual.css" rel="stylesheet">
 </head>
 
 <body>
-  <style>
-    body{
-      max-width: inherit;
-    }
-    #contentWrap{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: center;
-      width: 100%;
-      max-width: 650px;
-      margin: 0 auto;
-    }
-    .block{
-      width: 100%;
-      padding: 2%;
-      box-sizing: border-box;
-    }
-    #fixedScrollArea{
-      position: fixed;
-      display: block;
-      bottom: 0;
-      width: 100%;
-      background: linear-gradient( rgba(0,0,0,0) 10%, rgba(0,0,0,1) );
-      animation: scrollAreaVanish 1s linear 0s;
-      animation-delay: 3s;
-      animation-fill-mode: forwards;
-      pointer-events: none;
-    }
-    @keyframes scrollAreaVanish{
-      from{ opacity: 1 } 99.9%, to { opacity: 0;
-      }
-    }
-    .iconScroll{
-      position: relative;
-      margin: 10px auto;
-      padding-top: 14px;
-      font-size: 0.8rem;
-      text-align: center;
-    }
-    .iconScroll span{
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 16px;
-      height: 16px;
-      margin-left: -8px;
-      border-left: 1px solid #fff;
-      border-bottom: 1px solid #fff;
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      box-sizing: border-box;
-    }
-    @media screen and ( min-width: 1200px ) {
-      #contentWrap{
-        max-width: inherit;
-      }
-      .block{
-        width: 50%;
-      }
-      #fixedScrollArea{
-        display: none;
-      }
-    }
-    
-  </style>
   <div id="contentWrap">
     <div class="block">
       <div>
@@ -91,19 +24,9 @@
       </div>
     </div>
     <div  class="block">
-      <div>
-        <img src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/workImages%2F1_asahi.jpg?alt=media&token=21b2aecd-0011-4731-b46c-61b7a9b46289"
-          style="
-          width: 40%;
-          object-position:cover;
-          margin-left:5%;
-        ">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/artistImages%2F1_asahi.JPG?alt=media&token=9f426b60-2c4c-44ea-a348-2d24bf06bb06"
-          style="
-          width: 40%;
-          object-position:cover;
-          margin-left:5%;
-        ">
+      <div class="pictureArea">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/workImages%2F1_asahi.jpg?alt=media&token=21b2aecd-0011-4731-b46c-61b7a9b46289">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mediaartdh2021.appspot.com/o/artistImages%2F1_asahi.JPG?alt=media&token=9f426b60-2c4c-44ea-a348-2d24bf06bb06">
       </div>
       
       <div class="profile">
