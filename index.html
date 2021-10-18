@@ -102,10 +102,18 @@
 </div>
 
 <!-- popup -->
-<div class="popup_nav">
+<!-- <div class="popup_nav">
   <a class="" href="https://camp-fire.jp/projects/view/491204" target="_blank">
     <img style="width:200px; background:white; " src="images/cf_logo_pr_vertical.png" alt="クラウドファンディング公開中">
   </a>
+</div> -->
+
+<div class="popup_nav">
+  <a class="" href="https://dhgsvirtualcampus.ovice.in/" target="_blank">
+    <img style="width:200px; background:white; padding:5% 2%;" src="images/vertual_logo.png" alt="公開中">
+  </a></br>
+  <!-- <i class="fas fa-mouse"></i>
+  <p>click</p> -->
 </div>
 
   <!-- contents -->
@@ -114,7 +122,7 @@
       
       <div class="col-sm-12 col-md-8" id="main_container" >
           <div class="parallax-window" data-parallax="scroll" data-image-src="images/poster_50.jpg">
-            <img src="images/logo.png" alt="">
+            <img src="images/logo.png" alt=""></br>
           </div>
       </div>
 
@@ -154,13 +162,14 @@
         <i class="fas fa-edit"></i>来場申込
       </button>
 
-      <a class="btn_main" href="https://camp-fire.jp/projects/view/491204" target="_blank" >
+      <!-- <a class="btn_main" href="https://camp-fire.jp/projects/view/491204" target="_blank" >
         <img  src="images/cf_logo_pr_horizontal.png" alt="クラウドファンディング公開中">
-      </a>
+      </a> -->
 
       </br></br>
       <p>
         <!-- <a href=""><i class="fas fa-file-alt"></i>感染予防対策について</a> -->
+        <a href="crowdfund/">クラウドファンディング</a>は無事終了しました。</br>皆さまのご支援ありがとうございました。
       </p>
 
     </div>
@@ -193,13 +202,14 @@
           <i class="fas fa-edit"></i>来場申込
         </button>
         <br>
-        <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank">
+        <!-- <a class="btn_main" href="https://camp-fire.jp/projects/491204/preview?token=3bemmqkf" target="_blank">
           <img src="images/cf_logo_pr_vertical.png" alt="クラウドファンディング公開中">
-        </a>
+        </a> -->
 
       </br></br>
       <p>
         <!-- <a href=""><i class="fas fa-file-alt"></i>感染予防対策について</a> -->
+        <a href="crowdfund/">クラウドファンディング</a>は無事終了しました。</br>皆さまのご支援ありがとうございました。
       </p>
       
     </div>
@@ -604,7 +614,8 @@
     var menuHeight = $(".popup_nav").height();
     $(window).scroll(function(){
       if ($(window).scrollTop() >900){
-        $(".popup_nav").css("bottom", menuHeight  + "px");
+        // $(".popup_nav").css("bottom", menuHeight + "px");
+        $(".popup_nav").css("bottom", menuHeight +25 + "px");
       }if ($(window).scrollTop() >2200){
         $(".popup_nav").css("bottom", "-" + menuHeight  + "px");
       } else {

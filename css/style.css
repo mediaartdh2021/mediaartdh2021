@@ -79,6 +79,12 @@ body {
   color:white; 
 }
 
+/* popup */
+.pop_up img{
+  /* padding:2%; */
+}
+
+
 /* contents */
 #container{
   margin:0 auto;
